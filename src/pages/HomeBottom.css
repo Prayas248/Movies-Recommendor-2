@@ -1,0 +1,56 @@
+/* Assuming you have a container for the movie blocks */
+.dabba{
+  display: flex;
+  flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 20px;
+  }
+  
+  /* Styles for each movie block */
+  .movie-block {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+  }
+  @keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+  /* Styles for movie title */
+  .movie-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for movie description or any additional information */
+  .movie-description {
+    font-size: 14px;
+    color: #d8d5d5;
+    cursor: pointer;
+  }
+  .movie-description:hover{
+    color: rgb(145, 143, 142);
+    transition: all 0.5s;
+  }
+  

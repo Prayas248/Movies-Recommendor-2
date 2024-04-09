@@ -1,0 +1,38 @@
+/* HomeBottom.css */
+
+
+  
+  .searchbar {
+    padding: 12px;
+    padding-right: 20vw;
+    font-size: 18px;
+    border: 2px solid #000000; 
+    background-color: transparent;
+    border-radius: 8px;
+    margin: 2vw;
+    margin-right: 5px;
+    margin-left: 10vw;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .searchbar:focus {
+    border-color: #2ecc71; 
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #0a331b; 
+    color: #fff; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #27ae60; 
+  }
+  

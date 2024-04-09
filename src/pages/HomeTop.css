@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(31, 30, 30);
+    
+}
+ 
+
+
+.HomeTop {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#HomeImg {
+    position: relative;
+    top: 25%;
+    left: 10%;
+    height: 50vh;
+    width: auto;
+    box-shadow: 0 -100px 500px 400px rgba(0, 0, 0, 1); /* Adjust the shadow properties as needed */
+}
+
+#HomeName {
+    position: relative;
+    font-size: 2em;
+    left: 65%;
+    top: -20%;
+    color: #fff;
+    max-width: 30%;
+    height: auto;
+    cursor: pointer;
+}
+#HomeName:hover{
+    color: rgb(145, 143, 142);
+    transition: all 0.5s;
+  }
+
+@media only screen and (max-width: 768px) {
+    #HomeImg {
+        top: 25%;
+        left: 33%;
+        height: 30vh;
+    }
+
+    #HomeName {
+        left: 8%;
+        top: 25%;
+        max-width: 90%;
+        font-size: 1.5em;
+    }
+    .HomeTop{
+        background-size: cover ;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #HomeImg {
+        top: 25%;
+        left: 33%;
+        height: 30vh;
+    }
+
+    #HomeName {
+        left: 8%;
+        top: 25%;
+        max-width: 90%;
+        font-size: 1.2em;
+    }
+    .HomeTop{
+        background-size: cover ;
+    }
+}
+
+/* Add more media queries as needed */
